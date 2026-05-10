@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import base64
 from pathlib import Path
 
 from jinja2 import Template
@@ -212,10 +213,14 @@ def generate_report(analysis, output_dir):
     ]
 
     chart_paths = [Path(path) for path in analysis["chart_paths"]]
+    chart_data_uris = [
+        f"data:image/png;base64,{base64.b64encode(p.read_bytes()).decode()}"
+        for p in chart_paths
+    ]
     html = REPORT_TEMPLATE.render(
         metrics=metrics,
         insights=analysis["insights"],
-        charts=[path.resolve().as_uri() for path in chart_paths],
+        charts=chart_data_uris,
         coverage_rows=coverage_summary.to_dict(orient="records"),
     )
 
