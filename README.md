@@ -1,6 +1,6 @@
 # Rappi Competitive Intelligence
 
-Competitive intelligence pipeline for the Rappi AI Engineer technical challenge. Scrapes and compares Rappi, Uber Eats, and DiDi Food across 20 representative CDMX zones using McDonald's as a reference chain.
+Competitive intelligence pipeline. Scrapes and compares Rappi, Uber Eats, and DiDi Food across 20 representative CDMX zones using McDonald's as a reference chain.
 
 ## Quick start
 
