@@ -1,0 +1,32 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# Env / secrets
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# Generated outputs — run `make all` to regenerate
+outputs/raw/
+outputs/screenshots/
+
+# AI assistant tool files — not part of the challenge
+CLAUDE.md
+AGENTS.md
+CODEX.md
+.cursor/
+.cursorrules
+memory/
+
+# Challenge brief (private document, not for the repo)
+"Caso Técnico_*"
+Caso\ Técnico*

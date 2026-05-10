@@ -1,0 +1,227 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Rappi Competitive Intelligence Report</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f4efe7;
+        --ink: #1f2937;
+        --muted: #6b7280;
+        --accent: #ff6b35;
+        --card: #fffdf8;
+      }
+      body {
+        margin: 0;
+        font-family: Georgia, "Times New Roman", serif;
+        background: linear-gradient(180deg, #f7f1e8 0%, #f2f4f7 100%);
+        color: var(--ink);
+      }
+      main {
+        max-width: 1040px;
+        margin: 0 auto;
+        padding: 48px 28px 72px;
+      }
+      h1, h2, h3 {
+        margin: 0 0 12px;
+      }
+      p {
+        line-height: 1.55;
+      }
+      .hero {
+        background: var(--card);
+        border-radius: 20px;
+        padding: 28px;
+        box-shadow: 0 20px 50px rgba(15, 23, 42, 0.08);
+      }
+      .metrics {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px;
+        margin: 24px 0 40px;
+      }
+      .metric, .section {
+        background: rgba(255, 253, 248, 0.95);
+        border-radius: 18px;
+        padding: 20px;
+        box-shadow: 0 12px 30px rgba(15, 23, 42, 0.06);
+      }
+      .metric strong {
+        display: block;
+        font-size: 1.8rem;
+        margin-bottom: 8px;
+      }
+      .charts {
+        display: grid;
+        gap: 18px;
+      }
+      img {
+        width: 100%;
+        border-radius: 14px;
+        background: white;
+      }
+      ol {
+        padding-left: 20px;
+      }
+      li {
+        margin-bottom: 12px;
+      }
+      .muted {
+        color: var(--muted);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="hero">
+        <p class="muted">CDMX · McDonald's · Snapshot-backed benchmark</p>
+        <h1>Rappi Competitive Intelligence Report</h1>
+        <p>Benchmark de Rappi, Uber Eats y DiDi Food en 20 zonas ancla de CDMX usando 4 productos comparables de McDonald's y métricas de precio de producto, delivery fee, service fee, ETA y promociones activas.</p>
+      </section>
+
+      <section class="metrics">
+        
+        <article class="metric">
+          <span class="muted">Precio de producto más bajo</span>
+          <strong>Didi Food</strong>
+          <div>Precio promedio: MXN 116.8</div>
+        </article>
+        
+        <article class="metric">
+          <span class="muted">Menor delivery fee</span>
+          <strong>Uber Eats</strong>
+          <div>Fee promedio: MXN 20.1</div>
+        </article>
+        
+        <article class="metric">
+          <span class="muted">Mejor ETA promedio</span>
+          <strong>Rappi</strong>
+          <div>ETA medio: 30.5 min</div>
+        </article>
+        
+        <article class="metric">
+          <span class="muted">Menor costo total al usuario</span>
+          <strong>Rappi</strong>
+          <div>Producto + delivery + service fee: MXN 141.7</div>
+        </article>
+        
+      </section>
+
+      <section class="section">
+        <h2>Top 5 insights</h2>
+        <ol>
+          
+          <li>
+            <strong>Finding:</strong> Didi Food tiene el precio de producto más bajo en promedio (MXN 116.8), frente a MXN 123.0 de Uber Eats.<br>
+            <strong>Impacto:</strong> La diferencia de precio visible al usuario puede inclinar búsquedas y primera compra, especialmente en zonas de ingreso medio donde el precio del ítem es el criterio principal.<br>
+            <strong>Recomendación:</strong> Defender SKUs ancla (Big Mac, McNuggets) en zonas sensibles al precio con pricing competitivo antes de expandir descuentos horizontales.
+          </li>
+          
+          <li>
+            <strong>Finding:</strong> Rappi cobra el delivery fee más alto en promedio (MXN 24.6), pero es el único con service fee cero. El costo total al usuario (producto + delivery + service fee) es MXN 141.7 vs MXN 155.0 de Uber Eats y MXN 146.9 de DiDi Food.<br>
+            <strong>Impacto:</strong> El service fee de Uber Eats ($12 MXN) y DiDi ($8 MXN) hace que su costo real sea mayor de lo que aparenta en la pantalla de producto. Rappi resulta el más competitivo en costo total pese a tener el delivery fee más alto.<br>
+            <strong>Recomendación:</strong> Comunicar activamente el beneficio de $0 service fee en creatividades y onboarding. Considerarlo como diferenciador clave frente a la percepción de 'Rappi es caro'.
+          </li>
+          
+          <li>
+            <strong>Finding:</strong> Rappi lidera en velocidad de entrega con un ETA promedio de 30 min, frente a 34 min de Uber Eats y 37 min de DiDi Food.<br>
+            <strong>Impacto:</strong> En fast food de decisión impulsiva, el ETA es el segundo criterio de elección después del precio. Liderar en velocidad construye preferencia de marca operacional.<br>
+            <strong>Recomendación:</strong> Usar ETA como palanca de comunicación en zonas donde Rappi mantiene ventaja. Monitorear si DiDi recorta el gap en zonas periféricas donde su red de repartidores crece.
+          </li>
+          
+          <li>
+            <strong>Finding:</strong> Uber Eats cobra su mayor premium vs Rappi en Centro Histórico (MXN 2.8 más caro por producto). DiDi Food subcotiza más fuertemente en Del Valle (MXN 12.9 más barato que Rappi).<br>
+            <strong>Impacto:</strong> La competitividad no es uniforme: en zonas premium Uber Eats carga un premium propio que le resta competitividad; en zonas populares DiDi actúa agresivamente en precio.<br>
+            <strong>Recomendación:</strong> Segmentar estrategia por zona: en zonas de alto ingreso defenderse de Uber Eats con calidad/velocidad, no precio. En zonas populares y periféricas, revisar si el gap de DiDi está generando churn.
+          </li>
+          
+          <li>
+            <strong>Finding:</strong> DiDi Food lanza cupones visibles para usuarios nuevos en todas las zonas analizadas; Uber Eats corre 'Hasta 20% off en combos'; Rappi ofrece envío gratis en pedidos seleccionados — ninguno muestra descuento universal en producto.<br>
+            <strong>Impacto:</strong> Las tres plataformas usan promociones de adquisición (nuevos usuarios o umbral mínimo), no descuentos de retención. El usuario recurrente no recibe beneficio diferencial en ninguna plataforma.<br>
+            <strong>Recomendación:</strong> Diseñar mecánica de retención explícita para usuarios frecuentes (ej. precio preferencial en SKUs ancla tras N pedidos) que DiDi y Uber no están ofreciendo actualmente.
+          </li>
+          
+        </ol>
+      </section>
+
+      <section class="section">
+        <h2>Coverage & confidence</h2>
+        <p>El benchmark mezcla evidencia live/curada y snapshot sintético. Esta sección muestra qué tan confiable es cada plataforma en la corrida analizada.</p>
+        <table style="width:100%; border-collapse: collapse;">
+          <thead>
+            <tr>
+              <th style="text-align:left; padding:8px 0;">Platform</th>
+              <th style="text-align:left; padding:8px 0;">Rows</th>
+              <th style="text-align:left; padding:8px 0;">Usable</th>
+              <th style="text-align:left; padding:8px 0;">Real</th>
+              <th style="text-align:left; padding:8px 0;">Synthetic</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+            <tr>
+              <td style="padding:6px 0;">didi_food</td>
+              <td style="padding:6px 0;">80</td>
+              <td style="padding:6px 0;">80</td>
+              <td style="padding:6px 0;">0</td>
+              <td style="padding:6px 0;">80</td>
+            </tr>
+            
+            <tr>
+              <td style="padding:6px 0;">rappi</td>
+              <td style="padding:6px 0;">80</td>
+              <td style="padding:6px 0;">80</td>
+              <td style="padding:6px 0;">12</td>
+              <td style="padding:6px 0;">68</td>
+            </tr>
+            
+            <tr>
+              <td style="padding:6px 0;">uber_eats</td>
+              <td style="padding:6px 0;">80</td>
+              <td style="padding:6px 0;">80</td>
+              <td style="padding:6px 0;">0</td>
+              <td style="padding:6px 0;">80</td>
+            </tr>
+            
+          </tbody>
+        </table>
+      </section>
+
+      <section class="section charts">
+        <h2>Visualizaciones</h2>
+        
+        <figure>
+          <img src="file:///Users/joaquinfernandezdegamboa/Proj/rappi-ai-lab/outputs/analysis/chart_price_by_platform.png" alt="Chart">
+        </figure>
+        
+        <figure>
+          <img src="file:///Users/joaquinfernandezdegamboa/Proj/rappi-ai-lab/outputs/analysis/chart_delivery_fee_by_platform.png" alt="Chart">
+        </figure>
+        
+        <figure>
+          <img src="file:///Users/joaquinfernandezdegamboa/Proj/rappi-ai-lab/outputs/analysis/chart_service_fee_by_platform.png" alt="Chart">
+        </figure>
+        
+        <figure>
+          <img src="file:///Users/joaquinfernandezdegamboa/Proj/rappi-ai-lab/outputs/analysis/chart_total_price_by_platform.png" alt="Chart">
+        </figure>
+        
+        <figure>
+          <img src="file:///Users/joaquinfernandezdegamboa/Proj/rappi-ai-lab/outputs/analysis/chart_eta_by_platform.png" alt="Chart">
+        </figure>
+        
+        <figure>
+          <img src="file:///Users/joaquinfernandezdegamboa/Proj/rappi-ai-lab/outputs/analysis/chart_price_gap_by_zone.png" alt="Chart">
+        </figure>
+        
+      </section>
+
+      <section class="section">
+        <h2>Metodología</h2>
+        <p>Se compararon Rappi, Uber Eats y DiDi Food en flujo guest, con snapshot reproducible para evitar dependencia del estado de los sitios el día de la demo. El output raw se guarda en CSV y JSON y el análisis resume gaps de pricing, delivery fee y ETA por plataforma y por zona.</p>
+      </section>
+    </main>
+  </body>
+</html>

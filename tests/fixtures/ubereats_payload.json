@@ -1,0 +1,23 @@
+{
+  "data": {
+    "store": {
+      "title": "McDonald's",
+      "deliveryFee": "MX$18.00",
+      "etaRange": {
+        "min": 28,
+        "max": 38
+      },
+      "promotionText": "Hasta 20% off en combos",
+      "sections": [
+        {
+          "items": [
+            {"title": "Big Mac", "price": "MX$111.00"},
+            {"title": "Combo Mediano Big Mac", "price": "MX$192.00"},
+            {"title": "10 McNuggets", "price": "MX$131.00"},
+            {"title": "Coca Cola", "price": "MX$41.00"}
+          ]
+        }
+      ]
+    }
+  }
+}

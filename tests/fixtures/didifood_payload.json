@@ -1,0 +1,24 @@
+{
+  "payload": {
+    "shop": {
+      "displayName": "McDonald's",
+      "shipping": {
+        "fee": "$20.00"
+      },
+      "etaText": "30-40 min",
+      "couponText": "Cupon visible para usuarios nuevos",
+      "menu": {
+        "categories": [
+          {
+            "products": [
+              {"displayName": "Big Mac", "amount": "$107.00"},
+              {"displayName": "Big Mac Combo Mediano", "amount": "$186.00"},
+              {"displayName": "McNuggets 10 piezas", "amount": "$127.00"},
+              {"displayName": "Coca-Cola 500ml", "amount": "$38.00"}
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

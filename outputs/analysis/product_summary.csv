@@ -1,0 +1,13 @@
+platform,product_key,avg_price
+didi_food,big_mac,109.7
+rappi,big_mac,112.95
+uber_eats,big_mac,114.7
+didi_food,coca_cola,38.2
+rappi,coca_cola,44.45
+uber_eats,coca_cola,44.7
+didi_food,combo_mediano_big_mac,189.7
+rappi,combo_mediano_big_mac,188.85
+uber_eats,combo_mediano_big_mac,197.7
+didi_food,mcnuggets_10,129.7
+rappi,mcnuggets_10,136.85
+uber_eats,mcnuggets_10,134.7

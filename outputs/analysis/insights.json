@@ -1,0 +1,27 @@
+[
+  {
+    "finding": "Didi Food tiene el precio de producto más bajo en promedio (MXN 116.8), frente a MXN 123.0 de Uber Eats.",
+    "impact": "La diferencia de precio visible al usuario puede inclinar búsquedas y primera compra, especialmente en zonas de ingreso medio donde el precio del ítem es el criterio principal.",
+    "recommendation": "Defender SKUs ancla (Big Mac, McNuggets) en zonas sensibles al precio con pricing competitivo antes de expandir descuentos horizontales."
+  },
+  {
+    "finding": "Rappi cobra el delivery fee más alto en promedio (MXN 24.6), pero es el único con service fee cero. El costo total al usuario (producto + delivery + service fee) es MXN 141.7 vs MXN 155.0 de Uber Eats y MXN 146.9 de DiDi Food.",
+    "impact": "El service fee de Uber Eats ($12 MXN) y DiDi ($8 MXN) hace que su costo real sea mayor de lo que aparenta en la pantalla de producto. Rappi resulta el más competitivo en costo total pese a tener el delivery fee más alto.",
+    "recommendation": "Comunicar activamente el beneficio de $0 service fee en creatividades y onboarding. Considerarlo como diferenciador clave frente a la percepción de 'Rappi es caro'."
+  },
+  {
+    "finding": "Rappi lidera en velocidad de entrega con un ETA promedio de 30 min, frente a 34 min de Uber Eats y 37 min de DiDi Food.",
+    "impact": "En fast food de decisión impulsiva, el ETA es el segundo criterio de elección después del precio. Liderar en velocidad construye preferencia de marca operacional.",
+    "recommendation": "Usar ETA como palanca de comunicación en zonas donde Rappi mantiene ventaja. Monitorear si DiDi recorta el gap en zonas periféricas donde su red de repartidores crece."
+  },
+  {
+    "finding": "Uber Eats cobra su mayor premium vs Rappi en Centro Histórico (MXN 2.8 más caro por producto). DiDi Food subcotiza más fuertemente en Del Valle (MXN 12.9 más barato que Rappi).",
+    "impact": "La competitividad no es uniforme: en zonas premium Uber Eats carga un premium propio que le resta competitividad; en zonas populares DiDi actúa agresivamente en precio.",
+    "recommendation": "Segmentar estrategia por zona: en zonas de alto ingreso defenderse de Uber Eats con calidad/velocidad, no precio. En zonas populares y periféricas, revisar si el gap de DiDi está generando churn."
+  },
+  {
+    "finding": "DiDi Food lanza cupones visibles para usuarios nuevos en todas las zonas analizadas; Uber Eats corre 'Hasta 20% off en combos'; Rappi ofrece envío gratis en pedidos seleccionados — ninguno muestra descuento universal en producto.",
+    "impact": "Las tres plataformas usan promociones de adquisición (nuevos usuarios o umbral mínimo), no descuentos de retención. El usuario recurrente no recibe beneficio diferencial en ninguna plataforma.",
+    "recommendation": "Diseñar mecánica de retención explícita para usuarios frecuentes (ej. precio preferencial en SKUs ancla tras N pedidos) que DiDi y Uber no están ofreciendo actualmente."
+  }
+]

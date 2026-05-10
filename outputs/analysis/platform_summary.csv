@@ -1,0 +1,4 @@
+platform,avg_price,avg_delivery_fee,avg_service_fee,avg_total_price,avg_eta_mid,rows
+didi_food,116.825,22.05,8.0,146.875,36.55,80
+rappi,120.775,24.58823529411765,0.0,141.675,30.5,80
+uber_eats,122.95,20.05,12.0,155.0,33.55,80

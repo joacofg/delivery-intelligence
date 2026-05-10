@@ -1,0 +1,14 @@
+{
+  "restaurant": {
+    "name": "McDonald's",
+    "delivery_fee": "$ 19.00",
+    "eta": "25-35 min",
+    "promo": "Envio gratis desde $199",
+    "products": [
+      {"name": "Big Mac", "price": "$109.00"},
+      {"name": "Big Mac Combo Mediano", "price": "$189.00"},
+      {"name": "McNuggets 10", "price": "$129.00"},
+      {"name": "Coca-Cola 500ml", "price": "$39.00"}
+    ]
+  }
+}

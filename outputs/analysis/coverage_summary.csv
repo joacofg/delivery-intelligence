@@ -1,0 +1,4 @@
+platform,rows_total,rows_usable,rows_failed,unique_addresses,unique_failure_categories,snapshot_real_rows,snapshot_synthetic_rows,live_curated_rows
+didi_food,80,80,0,20,0,0,80,0
+rappi,80,80,0,20,0,12,68,0
+uber_eats,80,80,0,20,0,0,80,0
