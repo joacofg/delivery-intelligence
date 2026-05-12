@@ -1,4 +1,4 @@
-# Rappi Competitive Intelligence
+# Competitive Intelligence
 
 Competitive intelligence pipeline. Scrapes and compares Rappi, Uber Eats, and DiDi Food across 20 representative CDMX zones using McDonald's as a reference chain.
 
